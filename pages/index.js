@@ -31,7 +31,6 @@ const Index = () => {
     const port = workerRef.current.port;
 
     port.onmessage = (e) => {
-      console.log("From worker:", e.data);
       setMessages(prev => [...prev, e.data.payload]);
     };
 
