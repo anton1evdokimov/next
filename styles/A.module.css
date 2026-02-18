@@ -3,3 +3,11 @@
     color: green;
     margin: 10px;
 }
+
+body.dark {
+    background-color: black;
+}
+
+body.light {
+    background-color: olivedrab;
+}
