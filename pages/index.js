@@ -4,12 +4,9 @@ import { MainContainer } from "../components/MainContainer";
 import { useEffect, useRef, useState } from "react";
 
 const Index = () => {
-
   const [data, setData] = useState(10)
   const workerRef = useRef(null)
   const [messages, setMessages] = useState([]);
-
-  console.log(messages)
 
   useEffect(()=>{
 
